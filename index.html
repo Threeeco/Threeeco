@@ -10,7 +10,7 @@
 </head>
 
 <body>	
-	<div id="intro">
+	<div id="intro" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
 			<div id="content" class="grid_12">
@@ -40,7 +40,7 @@
 	</div> <!--#intro-->
 	
 
-	<div id="second">
+	<div id="second" data-slide="2" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
 			<div id="content" class="grid_12">
@@ -76,7 +76,7 @@
 	
 
 
-	<div id="third">
+	<div id="third" data-slide="3" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
 			<div id="content" class="grid_12">
@@ -108,7 +108,7 @@
 	
 
 	
-	<div id="fifth">
+	<div id="fifth" data-slide="4" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
 			<div id="content" class="grid_12">
@@ -142,12 +142,13 @@
 						<a href="www.threeeco.com"><img src="images/logo.png"></a>
 					</div>
 				</div>
-				<p class="copyright">&copy;2014 Threeeco</p>
+				<p class="copyright">&copy;2014 Threee Co</p>
 			</div>
 
 		</div>
 	</div> <!--#fifth-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.stellar.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
 <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
 <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
@@ -155,11 +156,12 @@
 $(document).ready(function(){
 	$('.nav-btm').localScroll(800);
 	$('#intro').parallax("50%", 0.1);
-	$('#second').parallax("50%", 0.1);
+	$('#second').parallax("50%", 0.2);
 	$('.bg').parallax("50%", 0.4);
 	$('#third').parallax("50%", 0.3);
 
 })
-</script>
+0</script>
+
 </body>
 </html>

@@ -1,3 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+}
+
+#nav li{
+	margin: 0 0 15px 0;	
+}
+
+#header, #intro, #second{
+	width: 100%;
+}
+
+#intro{
+	background:url(../images/slide1.jpg) 50% no-repeat fixed;
+	color: white;
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 100px 0 0 0;	
+	background-repeat: no-repeat;
+	background-position: center  !important;
+}
+
+#second{
+	background: url(../images/slide2.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	margin: 0 auto;
+	max-width: 100%;
+	overflow: hidden;
+	padding: 100px 0 0 0;
+	background-repeat: no-repeat;
+	background-position: center !important;	
+}
+
+#third{
+	background: url(../images/slide3.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	margin: 0 auto;
+	max-width: 100%;
+	height: 650px;
+	padding: 100px 0 0 0;	
+	background-repeat: no-repeat;
+	background-position: center  !important;
+}
+
+#fifth{
+	background: url(../images/slide4.jpg) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-position: center  !important;
+}
+
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 980px;
+}
+
+.story .float-left, .story .float-right{
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 350px;	
+}
+
+
 /* Global */
 
 body {
@@ -424,6 +501,18 @@ padding-bottom: 5px;
 	padding: 35px 0 0 0;
 	}
 
+	#intro {
+	height: 530px;
+	}
+
+	#second {
+	height: 700px !important;
+	}
+
+	#third {
+	height: 650px !important;
+	}
+
 	.mob {
 		display: block !important;
 	}
@@ -536,7 +625,7 @@ padding-top: 0px;
 	}
 
 	#third {
-height: 570px;
+height:600px;
 }
 }
 
