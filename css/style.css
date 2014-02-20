@@ -502,10 +502,6 @@ padding-bottom: 5px;
 		height: 700px !important;
 	}
 
-	#third {
-		height: 650px !important;
-	}
-
 	.mob {
 		display: block !important;
 	}
@@ -617,7 +613,7 @@ padding-bottom: 5px;
 	}
 
 	#third {
-		height:600px;
+		height:600px !important;
 	}
 }
 
@@ -634,7 +630,7 @@ padding-bottom: 5px;
 	}
 
 	#intro, #second, #third, #fifth  {
-	padding: 50px 0 30px 0px;
+	padding: 20px 0 30px 0px;
 	}
 
 	.slide{
@@ -781,7 +777,7 @@ padding-bottom: 5px;
 	}
 
 	#intro, #second, #third, #fifth  {
-	padding: 50px 0 30px 0;
+	padding: 20px 0 30px 0;
 	}
 
 	.container {
@@ -794,7 +790,7 @@ padding-bottom: 5px;
 	}
 
 	.tagline p {
-	font-size: 36px;
+	font-size: 40px;
 	border: none;
 	}
 
