@@ -1,19 +1,30 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Threee</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<meta charset="utf-8" />
+	<title>The 1140px Grid &middot; Fluid down to mobile</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 </head>
+<body>
 
-<body>	
-	<div id="intro">
-		<div class="container clearfix">
-
-			<div id="content" class="grid_12">
+<div id="intro">
+	<div class="container">
+		<div class="row">
+			<div class="twelvecol">
 				<div id="menu" class="clearfix">
 					<div class="logo"><a href="www.threeeco.com"><img src="images/logo.png"></a></div>
 					<div class="social">
@@ -37,13 +48,13 @@
 				</div>
 			</div>
 		</div>
-	</div> <!--#intro-->
-	
+	</div>
+</div>
 
-	<div id="second">
-		<div class="container clearfix">
-
-			<div id="content" class="grid_12">
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="twelvecol">
 				<div id="menu-sub" class="clearfix">
 					<div class="logo"><a href="www.threeeco.com"><img src="images/logo.png"></a></div>
 					<div class="icon">
@@ -68,22 +79,19 @@
 				<div class="bottom-icon">
 					<img src="images/love.png">
 				</div>
-
+			</div>
 		</div>
-	</div> 
-	    
-	</div> <!--#second-->
-	
+	</div>
+</div>
 
-
-	<div id="third">
-		<div class="container clearfix">
-
-			<div id="content" class="grid_12">
+<div id="partner">
+	<div class="container">
+		<div class="row">
+			<div class="twelvecol">
 				<div id="menu-sub" class="clearfix">
 					<div class="logo"><a href="www.threeeco.com"><img src="images/logo.png"></a></div>
 					<div class="icon">
-						Our Partners
+						Partners
 					</div>
 				</div>
 
@@ -94,9 +102,14 @@
 						but also as collaborators. We're more than happy to be associated with them.</p>
 
 
-					<p class="italic">
+					<p class="italic hosta">
 						ace educational services  //  whogohost  //  3insure  // anth insecta<br/>
 						kobotrack  //  vconnect  //  complete sports  //
+					</p>
+
+					<p class="italic hostb">
+						ace educational services  //  whogohost  //  3insure  // anth insecta 
+						// kobotrack  //  vconnect  //  complete sports  //
 					</p>
 				</div>
 				<div class="bottom-icon">
@@ -104,14 +117,13 @@
 				</div>
 			</div>
 		</div>
-	</div> <!--#third-->
-	
+	</div>
+</div>
 
-	
-	<div id="fifth">
-		<div class="container clearfix">
-
-			<div id="content" class="grid_12">
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="twelvecol">
 				<div id="menu-sub" class="clearfix">
 					<div class="icon">
 						Contact
@@ -144,9 +156,9 @@
 				</div>
 				<p class="copyright">&copy;2014 Threee Co</p>
 			</div>
-
 		</div>
-	</div> <!--#fifth-->
-<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	</div>
+</div>
+
 </body>
 </html>

@@ -1,0 +1,631 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+	
+	html, body {
+	    padding:0;
+	    margin:0;
+	}
+
+	.clearfix:after{
+		clear:both;
+		content:' ';
+		display:block;
+		font-size:0;
+		line-height:0;
+		visibility:hidden;
+		width:0;
+		height:0;
+	}
+
+	* html .clearfix,*:first-child+html .clearfix{zoom:1}
+
+	body {
+		font-family: 'nerislight', sans-serif;
+		color: #8a8683; 
+		background-color:#ffffff;
+	}
+
+	.hostb {
+		display: none;
+	}
+
+	@font-face {
+	  font-family: 'nerislight';
+	  src: url("../fonts/Neris-Light-webfont.eot");
+	  src: url("../fonts/Neris-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Neris-Light-webfont.woff") format("woff"), url("../fonts/Neris-Light-webfont.ttf") format("truetype"), url("../fonts/Neris-Light-webfont.svg#nerislight") format("svg");
+	  font-weight: normal;
+	  font-style: normal;
+	}
+
+	@font-face {
+	    font-family: 'nerislight_italic';
+	    src: url('../fonts/Neris-LightItalic-webfont.eot');
+	    src: url('../fonts/Neris-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/Neris-LightItalic-webfont.woff') format('woff'),
+	         url('../fonts/Neris-LightItalic-webfont.ttf') format('truetype'),
+	         url('../fonts/Neris-LightItalic-webfont.svg#nerislight_italic') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	#intro{
+		background-color:#ffffff;
+		background-image:url('../images/slide1.jpg');
+		max-width: 100%;
+		position: relative;
+		height: 670px;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+	}
+
+	.logo {
+		float: left;
+	}
+
+	.social {
+		float: right;
+	}
+
+	.social a {
+		margin-left: 20px;
+	}
+
+	#menu {
+		padding-top: 100px;
+	}
+
+	.tagline {
+		margin: 100px 0 120px;
+	}
+
+	.nav-btm ul li {
+		list-style: none;
+		display: inline-block;
+		margin-right: 50px;
+	}
+
+	.nav-btm ul {
+		margin: 0;
+	}
+	
+
+	.tagline p {
+		font-size: 48px;
+		border-bottom: 1px solid #eb2772;
+		width: 91%;
+		color: #23d2fb;
+		margin: 10px 0;
+	}
+
+	.mob {
+		display: none;
+	}
+
+	.under {
+		width: 83% !important;
+	}
+
+
+/* ============================= */
+/* ! About  */
+/* ============================= */
+
+	#about{
+		background-color:#ffffff;
+		background-image:url('../images/slide2.jpg');
+		max-width: 100%;
+		position: relative;
+		height: 720px;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+	}
+
+	.icon {
+		float: right;
+		font-size: 30px;
+		color: #fff;
+		margin-top: 15px;
+	}
+
+	.slide-ctn {
+		margin: 70px 0 80px;
+		width: 93%;
+	}
+
+	.slide-ctn p {
+		font-size: 30px;
+		line-height: 38px;
+		color: #fff;
+	}
+
+	#menu-sub {
+		margin-top: 50px;
+	}
+
+	.bottom-icon {
+		margin-bottom: 50px;
+	}
+
+
+/* ============================= */
+/* ! Partner  */
+/* ============================= */
+
+	#partner{
+		background-color:#ffffff;
+		background-image:url('../images/slide3.jpg');
+		max-width: 100%;
+		position: relative;
+		height: 680px;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+	}
+
+	.italic {
+		font-family: 'nerislight_italic';
+		margin-top: 30px;
+	}
+
+/* ============================= */
+/* ! Contact  */
+/* ============================= */
+
+	#contact{
+		background-color:#ffffff;
+		background-image:url('../images/slide4.jpg');
+		max-width: 100%;
+		position: relative;
+		height: 790px;
+		background-position: center bottom;
+		background-size: cover;
+	}
+
+	.contact-txt {
+		width: 70%;
+		margin: 0 auto;
+		text-align: center;
+		padding-bottom: 60px;
+	}
+
+	.contact-det {
+		text-align: center;
+		padding-bottom: 5px;
+	}
+
+	.pink {
+		margin: 0 0 20px;
+		color: #eb1c69 !important;
+	}
+
+	.ctn-logo {
+		margin-top: 24px;
+	}
+
+	.copyright {
+		color: #fff;
+		margin: 0;
+	}
+
+	.footer {
+		margin: 70px 0 40px;
+	}
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 320px) {
+
+	#menu {
+		padding-top: 30px;
+	}
+
+	.social a img {
+		height: 30px;
+	}
+
+
+	.logo {
+		float: left;
+		width: 140px;
+	}
+	.nav-btm ul li {
+		margin-right: 20px;
+	}
+
+	#menu-sub {
+		margin-top: 30px;
+	}
+
+	.slide-ctn p {
+		font-size: 18px;
+		line-height:24px;
+	}
+
+	.nav-btm {
+		text-align: center;
+	}
+
+	.tagline {
+		margin: 30px 0 50px;
+	}
+
+	.tagline p {
+		border: none;
+		font-size: 30px !important;
+		text-align: center;
+		width: 100%;
+		line-height: 35px !important;
+	}
+
+	#about {
+		height: 670px;
+	}
+
+	#partner {
+		height: 580px;
+	}
+
+	img, object, embed {
+	max-width: 80%;
+	}
+
+	.pink {
+		margin: 0 0 10px;
+	}
+
+	.icon {
+		float: right;
+		font-size: 18px;
+		color: #fff;
+		margin-top: 5px;
+	}
+
+	.bottom-icon img {
+		height: 40px;
+	}
+
+	.contact-txt {
+		width: 92%;
+		padding-bottom: 30px;
+	}
+
+	.slide-ctn {
+		margin: 30px 0 50px;
+		width: 100%;
+	}
+
+	#contact {
+		height:520px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.ctn-logo img {
+		height: 50px;
+	}
+
+	.hosta {
+		display: none;
+	}
+
+	.hostb {
+		display: block;
+	}
+
+
+	#intro {
+		height: 460px;
+	}
+
+	.copyright {
+		font-size: 12px;
+	}
+
+	.mob {
+		display: block;
+	}
+
+	.footer {
+		margin: 20px 0 20px !important;
+	}
+}
+
+@media handheld, only screen and (min-width: 321px) and (max-width: 480px) {
+
+	#menu {
+		padding-top: 50px;
+	}
+
+	.nav-btm ul li {
+		margin-right: 20px;
+	}
+
+	#menu-sub {
+		margin-top: 30px;
+	}
+
+	.slide-ctn p {
+		font-size: 18px;
+		line-height:24px;
+	}
+
+	.nav-btm {
+		text-align: center;
+	}
+
+	.tagline {
+		margin: 40px 0 60px;
+	}
+
+	.tagline p {
+		border: none;
+		font-size: 36px !important;
+		text-align: center;
+		width: 100%;
+		line-height: 39px !important;
+	}
+
+	#about {
+		height: 580px;
+	}
+
+	#partner {
+		height: 510px;
+	}
+
+	img, object, embed {
+	max-width: 80%;
+	}
+
+	.icon {
+		float: right;
+		font-size: 20px;
+		color: #fff;
+		margin-top: 10px;
+	}
+
+	.bottom-icon img {
+		height: 40px;
+	}
+
+	.contact-txt {
+		width: 92%;
+		padding-bottom: 30px;
+	}
+
+	.slide-ctn {
+		margin: 30px 0 50px;
+		width: 100%;
+	}
+
+	#contact {
+		height:600px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.ctn-logo img {
+		height: 50px;
+	}
+
+	#intro {
+		height: 510px;
+	}
+
+	.copyright {
+		font-size: 12px;
+	}
+
+	.mob {
+		display: block;
+	}
+
+	.footer {
+		margin: 40px 0 36px !important;
+	}
+}
+
+
+
+@media handheld, only screen and (min-width: 321px) and (max-width: 385px) {
+
+	.logo {
+		float: left;
+		width: 190px !important;
+	}
+
+	#about {
+		height: 631px !important;
+	}
+
+	.social img {
+		max-width: 80%;
+		height: 35px;
+	}
+
+	.contact-txt {
+		width: 100% !important;
+		font-size: 16px !important;
+		padding-bottom: 30px;
+	}
+
+	.hosta {
+		display: none;
+	}
+
+	.hostb {
+		display: block;
+	}
+
+	#contact {
+		height:570px;
+	}
+
+}
+
+
+
+@media handheld, only screen and (min-width: 481px) and (max-width: 600px) {
+
+	#menu {
+		padding-top: 50px;
+	}
+
+	.slide-ctn p {
+		font-size: 18px;
+		line-height:24px;
+	}
+
+	.tagline {
+		margin: 70px 0 100px;
+	}
+
+	.tagline p {
+		border: none;
+		font-size: 36px;
+		width: 100%;
+		line-height: 42px;
+	}
+
+	#about {
+		height: 580px;
+	}
+
+	#partner {
+		height: 550px;
+	}
+
+	.icon {
+		float: right;
+		font-size: 24px;
+		color: #fff;
+		margin-top: 20px;
+	}
+
+	.contact-txt {
+		width: 92%;
+		padding-bottom: 30px;
+	}
+
+	.slide-ctn {
+		margin: 30px 0 80px;
+		width: 100%;
+	}
+
+	#contact {
+		height:590px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	#intro {
+		height: 560px;
+	}
+
+	.mob {
+		display: block;
+	}
+
+	.footer {
+		margin: 40px 0 36px !important;
+	}
+}
+
+
+@media handheld, only screen and (min-width: 601px) and (max-width: 768px) {
+
+	#menu {
+		padding-top: 50px;
+	}
+
+	.slide-ctn p {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.tagline {
+		margin: 70px 0 100px;
+	}
+
+	.tagline p {
+		border: none;
+		font-size: 48px;
+		line-height: 54px;
+	}
+
+	.slide-ctn {
+		margin: 70px 0 80px;
+		width: 95%;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mob {
+		display: block;
+	}
+}
+
+
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+} 
+
+
+/* ============================= */
+/* 1024px  */
+/* ============================= */
+
+@media handheld, only screen  (min-width: 769px) and (max-width: 1024px) {
+
+	.desktop {
+		display: none;
+	}
+
+	.mob {
+		display: block;
+	}
+
+	.tagline p {
+		border-bottom: none;
+		line-height: 54px;
+		font-size: 48px;
+	}
+
+	/***
+	.container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	**/
+
+	#about {
+		height: 770px;
+	}
+
+}
